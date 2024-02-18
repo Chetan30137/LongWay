@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "252854372",
+    "project_id": "long-way-5721e",
+    "storage_bucket": "long-way-5721e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252854372:android:eb2c96df75f32874815f71",
+        "android_client_info": {
+          "package_name": "com.example.item_cart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252854372-6k6unb9nscjlj4ke6am663ga0qtho5du.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXsQXLCARm2dJHp_HCph2mIIW37_S3eoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252854372-6k6unb9nscjlj4ke6am663ga0qtho5du.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

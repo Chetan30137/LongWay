@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="38dp"
+    android:layout_marginRight="38dp"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/_itemName"
+        android:layout_width="301dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:hint="Item Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/_itemDescription"
+        android:layout_width="301dp"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:hint="Item Description"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <EditText
+        android:id="@+id/_itemNumb"
+        android:layout_width="301dp"
+        android:layout_height="74dp"
+        android:ems="10"
+        android:hint="Item Number"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <EditText
+        android:id="@+id/_itemWeight"
+        android:layout_width="303dp"
+        android:layout_height="69dp"
+        android:ems="10"
+        android:hint="Weight"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="106dp" />
+
+    <EditText
+        android:id="@+id/_itemQuantity"
+        android:layout_width="305dp"
+        android:layout_height="71dp"
+        android:ems="10"
+        android:hint="Quantity"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <EditText
+        android:id="@+id/_itemCost"
+        android:layout_width="310dp"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:hint="Cost"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <Button
+        android:id="@+id/_sac"
+        android:layout_width="168dp"
+        android:layout_height="64dp"
+        android:text="Save In Cart"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</LinearLayout>

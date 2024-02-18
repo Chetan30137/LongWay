@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="12dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".ProfilePage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/background">
+
+        <ImageView
+            android:layout_width="319dp"
+            android:layout_height="245dp"
+            android:src="@drawable/grocery"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAME: "
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <EditText
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name."/>
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address: "
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <EditText
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your address."
+            android:inputType="textPostalAddress"/>
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age: "
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+        <EditText
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your age."
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail id: "
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <EditText
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your e-mail id."/>
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone number: "
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <EditText
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your phone number."
+            android:inputType="phone"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

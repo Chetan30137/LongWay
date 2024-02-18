@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools" tools:context=".DisplayActivity">
+
+    <item
+        android:icon="@drawable/ic_cart_b"
+        android:id="@+id/_added_cart"
+        android:title="Cart"
+        app:showAsAction="always" />
+
+        <item
+            android:icon="@drawable/ic_bookmarked"
+            android:id="@+id/_bookmark"
+            android:title="Bookmarked Items"
+            app:showAsAction="never" />
+
+    <item
+        android:id="@+id/_profile"
+        android:icon="@drawable/ic_account"
+        android:title="Profile"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:icon="@drawable/ic_account"
+        android:title="Sign Out"
+        app:showAsAction="never">
+    </item>
+</menu>
